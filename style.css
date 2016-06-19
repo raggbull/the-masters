@@ -1,0 +1,70 @@
+body{
+  background-color: #32CD32;
+}
+@font-face{
+    font-family: 'Varela Round',Arial, sans-serif;
+    font-size: 20px;
+}
+
+.top{
+    width: 100%;
+    text-align: center;
+
+}
+
+p.thicker {
+    font-weight: 900;
+
+}
+
+.water{
+    width: 50%;
+    text-align: center;
+}
+.box{
+    width: 250px;
+    height: 100px;
+    text-align: left;
+    padding: 20px;
+    top: auto;
+}
+.box2{
+    display: inline-block;
+    width: 250px;
+    height: 75px;
+    text-align: center;
+    padding: 20px;
+  
+
+
+}
+
+.ball{
+    display: inline;
+    position: relative;
+    right: 20em;
+    bottom: 3em;
+}
+#facebook{
+    margin-top: 15em;
+    flex-basis: 30%;
+}
+
+
+.main-content {
+    max-width: 70%;
+    margin: auto;
+}
+
+.main-body {
+    display: flex;
+    justify-content: center;
+}
+.sidebar {
+    flex-basis: 30%;
+}
+.center {
+    margin: 0 2em;
+    flex-basis: 40%;
+
+}
